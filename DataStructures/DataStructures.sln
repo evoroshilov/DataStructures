@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeTwoSortedArrays", "Mer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeTwoSortedArrays.Test", "MergeTwoSortedArrays.Test\MergeTwoSortedArrays.Test.csproj", "{F1135CD2-954D-45AE-AA9A-A7424AAA106C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindTwoNumbers", "FindTwoNumbers\FindTwoNumbers.csproj", "{186BD73C-6CF4-4BD9-82E5-6B0CF9E544BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindTwoNumbers.Test", "FindTwoNumbers.Test\FindTwoNumbers.Test.csproj", "{7034908C-A2A9-42E9-86FC-CB28C23319CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +39,14 @@ Global
 		{F1135CD2-954D-45AE-AA9A-A7424AAA106C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1135CD2-954D-45AE-AA9A-A7424AAA106C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1135CD2-954D-45AE-AA9A-A7424AAA106C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{186BD73C-6CF4-4BD9-82E5-6B0CF9E544BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{186BD73C-6CF4-4BD9-82E5-6B0CF9E544BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{186BD73C-6CF4-4BD9-82E5-6B0CF9E544BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{186BD73C-6CF4-4BD9-82E5-6B0CF9E544BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7034908C-A2A9-42E9-86FC-CB28C23319CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7034908C-A2A9-42E9-86FC-CB28C23319CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7034908C-A2A9-42E9-86FC-CB28C23319CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7034908C-A2A9-42E9-86FC-CB28C23319CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +56,8 @@ Global
 		{A9DC314B-E8CB-4B25-9A78-13C1538A4441} = {14B05EB4-8D13-41AC-8088-944AA428340B}
 		{06A6101D-049A-4B2E-B14C-0A6EF87BE96B} = {14B05EB4-8D13-41AC-8088-944AA428340B}
 		{F1135CD2-954D-45AE-AA9A-A7424AAA106C} = {14B05EB4-8D13-41AC-8088-944AA428340B}
+		{186BD73C-6CF4-4BD9-82E5-6B0CF9E544BA} = {14B05EB4-8D13-41AC-8088-944AA428340B}
+		{7034908C-A2A9-42E9-86FC-CB28C23319CA} = {14B05EB4-8D13-41AC-8088-944AA428340B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7CA4A2CA-0A7C-45DF-8F10-C37762E05B64}
