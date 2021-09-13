@@ -15,8 +15,7 @@ namespace FindTwoNumbers
             {
                 if (hashSet.Contains(n - item))
                     return new int[] { item, n - item };
-                else
-                    hashSet.Add(item);
+                hashSet.Add(item);
             }
 
             return Array.Empty<int>();
@@ -31,11 +30,11 @@ namespace FindTwoNumbers
 
             while (left <= right)
             {
-                var sum = arr[left] + arr[right];
+                var sum = arr[left] + arr[right]; //Calulate Sum of Pointer 1 and 2
 
                 if (sum > n)
                     right--;
-                else if (sum < n)
+                else if (sum < n) //if sum is less than given value => Move Pointer 1 to Right
                     left++;
                 else
                 {
