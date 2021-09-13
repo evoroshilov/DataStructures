@@ -21,15 +21,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayProductsAllElements", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{58BF8058-B3C3-4E5B-B7FD-20427DD80F8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayProductsAllElements.Test", "ArrayProductsAllElements.Test\ArrayProductsAllElements.Test.csproj", "{7FCAF6F7-B472-46E6-8B7A-6E33C637BDA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayProductsAllElements.Test", "ArrayProductsAllElements.Test\ArrayProductsAllElements.Test.csproj", "{7FCAF6F7-B472-46E6-8B7A-6E33C637BDA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMinimumValueInArray", "FindMinimumValueInArray\FindMinimumValueInArray.csproj", "{198F65A1-72D0-4331-B1D2-CD338EB50249}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindMinimumValueInArray", "FindMinimumValueInArray\FindMinimumValueInArray.csproj", "{198F65A1-72D0-4331-B1D2-CD338EB50249}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMinimumValueInArray.Test", "FindMinimumValueInArray.Test\FindMinimumValueInArray.Test.csproj", "{5DEA38C1-D6AE-4872-84FE-5D27D8D097CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindMinimumValueInArray.Test", "FindMinimumValueInArray.Test\FindMinimumValueInArray.Test.csproj", "{5DEA38C1-D6AE-4872-84FE-5D27D8D097CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstNonRepeatingIntegerInArray", "FirstNonRepeatingIntegerInArray\FirstNonRepeatingIntegerInArray.csproj", "{D3509EBA-EC5C-4735-AC81-820650CA68B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstNonRepeatingIntegerInArray", "FirstNonRepeatingIntegerInArray\FirstNonRepeatingIntegerInArray.csproj", "{D3509EBA-EC5C-4735-AC81-820650CA68B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstNonRepeatingIntegerInArray.Test", "FirstNonRepeatingIntegerInArray.Test\FirstNonRepeatingIntegerInArray.Test.csproj", "{8A342FA6-DE61-45BF-9A3C-46EFE7C2093A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstNonRepeatingIntegerInArray.Test", "FirstNonRepeatingIntegerInArray.Test\FirstNonRepeatingIntegerInArray.Test.csproj", "{8A342FA6-DE61-45BF-9A3C-46EFE7C2093A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeNumberSum", "ThreeNumberSum\ThreeNumberSum.csproj", "{DF059A1C-DF29-44EE-B995-D0A277BCBEAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeNumberSum.Test", "ThreeNumberSum.Test\ThreeNumberSum.Test.csproj", "{7F0FAFC5-BDC7-4618-A70A-CFE76FD99C40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,6 +89,14 @@ Global
 		{8A342FA6-DE61-45BF-9A3C-46EFE7C2093A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A342FA6-DE61-45BF-9A3C-46EFE7C2093A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A342FA6-DE61-45BF-9A3C-46EFE7C2093A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF059A1C-DF29-44EE-B995-D0A277BCBEAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF059A1C-DF29-44EE-B995-D0A277BCBEAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF059A1C-DF29-44EE-B995-D0A277BCBEAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF059A1C-DF29-44EE-B995-D0A277BCBEAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F0FAFC5-BDC7-4618-A70A-CFE76FD99C40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F0FAFC5-BDC7-4618-A70A-CFE76FD99C40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F0FAFC5-BDC7-4618-A70A-CFE76FD99C40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F0FAFC5-BDC7-4618-A70A-CFE76FD99C40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -103,6 +115,8 @@ Global
 		{5DEA38C1-D6AE-4872-84FE-5D27D8D097CE} = {58BF8058-B3C3-4E5B-B7FD-20427DD80F8D}
 		{D3509EBA-EC5C-4735-AC81-820650CA68B7} = {14B05EB4-8D13-41AC-8088-944AA428340B}
 		{8A342FA6-DE61-45BF-9A3C-46EFE7C2093A} = {58BF8058-B3C3-4E5B-B7FD-20427DD80F8D}
+		{DF059A1C-DF29-44EE-B995-D0A277BCBEAD} = {14B05EB4-8D13-41AC-8088-944AA428340B}
+		{7F0FAFC5-BDC7-4618-A70A-CFE76FD99C40} = {58BF8058-B3C3-4E5B-B7FD-20427DD80F8D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7CA4A2CA-0A7C-45DF-8F10-C37762E05B64}
